@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/imageView2"
-            android:src="@drawable/campus6"
+            android:src="@drawable/background_campus"
             android:scaleType = "centerCrop"
             android:layout_gravity="center"/>
 
@@ -59,7 +59,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
                 <Button
-                    android:background="@drawable/main_button5"
+                    android:background="@drawable/main_button"
                     android:layout_height="100dp"
                     android:layout_width="100dp"
                     android:text="@string/main_button1"
@@ -73,7 +73,7 @@
                     android:layout_width="25dp"
                     android:layout_height="match_parent" />
                 <Button
-                    android:background="@drawable/main_button5"
+                    android:background="@drawable/main_button"
                     android:layout_height="100dp"
                     android:layout_width="100dp"
                     android:layout_gravity="start"
@@ -103,7 +103,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
                 <Button
-                    android:background="@drawable/main_button5"
+                    android:background="@drawable/main_button"
                     android:layout_height="100dp"
                     android:layout_width="100dp"
                     android:text="@string/main_button3"
@@ -118,7 +118,7 @@
                     android:layout_width="25dp"
                     android:layout_height="match_parent" />
                 <Button
-                    android:background="@drawable/main_button5"
+                    android:background="@drawable/main_button"
                     android:layout_height="100dp"
                     android:layout_width="100dp"
                     android:layout_gravity="start"
@@ -150,7 +150,7 @@
                     android:layout_weight="1" />
 
                 <Button
-                    android:background="@drawable/main_button5"
+                    android:background="@drawable/main_button"
                     android:layout_height="100dp"
                     android:layout_width="100dp"
                     android:text="@string/main_button7"
@@ -167,7 +167,7 @@
                     android:layout_height="match_parent" />
 
                 <Button
-                    android:background="@drawable/main_button5"
+                    android:background="@drawable/main_button"
                     android:layout_height="100dp"
                     android:layout_width="100dp"
                     android:layout_gravity="start"
@@ -201,7 +201,7 @@
                     android:layout_weight="1" />
 
                 <Button
-                    android:background="@drawable/main_button5"
+                    android:background="@drawable/main_button"
                     android:layout_height="100dp"
                     android:layout_width="100dp"
                     android:text="@string/main_button5"
@@ -218,7 +218,7 @@
                     android:layout_height="match_parent" />
 
                 <Button
-                    android:background="@drawable/main_button5"
+                    android:background="@drawable/main_button"
                     android:layout_height="100dp"
                     android:layout_width="100dp"
                     android:layout_gravity="start"
