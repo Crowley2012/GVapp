@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GVSU</string>
+    <string name="app_version">Version 1.2.1</string>
+    <string name="main_button1">GVSU</string>
+    <string name="main_button2">Rapid\nConnect</string>
+    <string name="main_button3">My Banner</string>
+    <string name="main_button4">Blackboard</string>
+    <string name="main_button5">Mail</string>
+    <string name="main_button6">Settings</string>
+    <string name="main_button7">Library</string>
+    <string name="main_button8">People\nFinder</string>
+</resources>
