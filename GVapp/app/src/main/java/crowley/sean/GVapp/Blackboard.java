@@ -1,4 +1,4 @@
-package crowley.sean.testapplication;
+package crowley.sean.GVapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,12 +6,12 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class MyBanner extends AppCompatActivity {
+public class Blackboard extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my_banner);
+        setContentView(R.layout.activity_blackboard);
         WebView myWebView = (WebView) findViewById(R.id.webview);
         myWebView.setWebViewClient(new WebViewClient());
         WebSettings webSettings = myWebView.getSettings();
@@ -22,6 +22,6 @@ public class MyBanner extends AppCompatActivity {
         webSettings.setDisplayZoomControls(false);
         webSettings.setSupportZoom(true);
         webSettings.setUseWideViewPort(true);
-        myWebView.loadUrl("https://mybanner.gvsu.edu/PROD/twbkwbis.P_WWWLogin");
+        myWebView.loadUrl("https://mybb.gvsu.edu/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1");
     }
 }

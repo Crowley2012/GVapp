@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="crowley.sean.testapplication">
+    package="crowley.sean.GVapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,21 +10,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="crowley.sean.GVapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RapidConnect" />
-        <activity android:name=".GVSU" />
-        <activity android:name=".Mail" />
-        <activity android:name=".Blackboard" />
-        <activity android:name=".MyBanner" />
-        <activity android:name=".Settings" />
-        <activity android:name=".Library" />
-        <activity android:name=".PeopleFinder"></activity>
+        <activity android:name="crowley.sean.GVapp.RapidConnect" />
+        <activity android:name="crowley.sean.GVapp.GVSU" />
+        <activity android:name="crowley.sean.GVapp.Mail" />
+        <activity android:name="crowley.sean.GVapp.Blackboard" />
+        <activity android:name="crowley.sean.GVapp.MyBanner" />
+        <activity android:name="crowley.sean.GVapp.Settings" />
+        <activity android:name="crowley.sean.GVapp.Library" />
+        <activity android:name="crowley.sean.GVapp.PeopleFinder"></activity>
     </application>
 
 </manifest>

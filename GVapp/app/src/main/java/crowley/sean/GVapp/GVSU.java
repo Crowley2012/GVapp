@@ -1,4 +1,4 @@
-package crowley.sean.testapplication;
+package crowley.sean.GVapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,12 +6,12 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class Blackboard extends AppCompatActivity {
+public class GVSU extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_blackboard);
+        setContentView(R.layout.activity_gvsu);
         WebView myWebView = (WebView) findViewById(R.id.webview);
         myWebView.setWebViewClient(new WebViewClient());
         WebSettings webSettings = myWebView.getSettings();
@@ -22,6 +22,6 @@ public class Blackboard extends AppCompatActivity {
         webSettings.setDisplayZoomControls(false);
         webSettings.setSupportZoom(true);
         webSettings.setUseWideViewPort(true);
-        myWebView.loadUrl("https://mybb.gvsu.edu/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1");
+        myWebView.loadUrl("http://www.gvsu.edu/");
     }
 }

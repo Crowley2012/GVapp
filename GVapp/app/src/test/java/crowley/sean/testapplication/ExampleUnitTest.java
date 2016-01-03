@@ -1,4 +1,4 @@
-package crowley.sean.testapplication;
+package crowley.sean.GVapp;
 
 import org.junit.Test;
 
