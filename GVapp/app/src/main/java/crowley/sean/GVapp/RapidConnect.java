@@ -16,7 +16,6 @@ public class RapidConnect extends AppCompatActivity {
         myWebView.setWebViewClient(new WebViewClient());
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webSettings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         myWebView.loadUrl("http://connect.ridetherapid.org/infopoint");
     }
 }

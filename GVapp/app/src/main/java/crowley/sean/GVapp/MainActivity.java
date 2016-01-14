@@ -84,4 +84,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Settings.class);
         startActivity(intent);
     }
+
+    public void openDebitDollars(View view) {
+        Log.i(TAG, "Open DebitDollars");
+        final Animation animScale = AnimationUtils.loadAnimation(this, R.anim.anim_scale);
+        view.startAnimation(animScale);
+        Intent intent = new Intent(this, DebitDollars.class);
+        startActivity(intent);
+    }
 }
